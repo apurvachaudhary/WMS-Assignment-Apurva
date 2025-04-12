@@ -66,13 +66,30 @@ ORG,15,4.50
 ```
 
 ## AI Tools Used
-- Code suggestions and automation powered by ChatGPT (OpenAI)
-- SQLGlot for converting natural language queries to SQL (can be plugged into Baserow or any RDBMS)
+- SQLGlot for converting natural language queries to SQL
 
 ## Loom Video
-> [Add your Loom video link here demonstrating app features]
+> [Can't add my Loom video because of technical issues but demonstrating app features (which is the audio part)]
+This is my MVP for the Warehouse Management System assignment. I’ve built this using Python, Pandas, Tkinter for GUI, and Streamlit for a web dashboard. Let me walk you through it.
+>
+Part 1: SKU Mapping GUI
+python sku_mapper.py
+In the GUI:
+Upload a sample mapping CSV (SKU → MSKU)
+Upload a sample sales CSV
+Save the mapped output
+This is a Tkinter-based GUI for mapping SKUs to Master SKUs, even across different formats.
+>
+Part 2: Data Cleaning
+Open preprocess.py
+Showing the input CSV in Notepad/Excel
+Showing the cleaned output CSV
+Here I’m cleaning sales data using Pandas, adding MSKUs, and filtering invalid rows
+>
+Part 3: 
+Upload the cleaned CSV
+Showing the bar chart of Quantity by MSKU
+This dashboard gives a quick visual of sales quantities per MSKU using Streamlit.
 
-## Submission
-- Submit this repo or a ZIP file including all files.
-- Email your submission to `vaibhav@cste.international` with the subject: `WMS Assignment - [Your Name]`.
-- Ensure links (Loom, database, etc.) are publicly accessible.
+Everything explained in Readme
+
